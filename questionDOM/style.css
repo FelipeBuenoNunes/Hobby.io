@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+
+*{
+    margin: 0;
+    border: 0;
+    color: white;
+}
+
+body{
+    background: linear-gradient(#b1bfeb, #9198e5);
+    overflow-x: hidden;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw;
+}
+h1{
+    font-family: 'Dancing Script', cursive;    
+    color: blue;
+}
+
+nav{
+    position: fixed;
+    top: 2vw;
+    right: 2vw;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 1vw;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: #0f0f0f;
+}
+
+li{
+    font-family: 'Forum', cursive;
+    font-size: 20px;
+}
+
+p{
+    margin-top: 2vw;
+    font-family: Roboto;
+    font-size: 1.6em;
+    text-align: center;
+    width: 30%;
+    border-radius: 0.5vw;
+    border: 10px double black;
+    border-left: 0;
+    border-top: 0;
+    box-shadow: 0 0 6px blue;
+}
+
+figure{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1vw;
+    margin-top: 8vw;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.8em;
+    text-align: center;
+    margin-top: 15vh;
+}
+
+footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 4vh;
+    gap: 5vw;
+    background-color: rgb(200, 208, 230);
+    margin-top: 8vw;
+}

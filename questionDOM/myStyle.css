@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+#myPicture{
+    width: 15vw;
+    border-radius: 2vw;
+    align-self: center;
+}
+#footbalFirst,
+#footbalThird,
+#footbalSecond{
+    width: 25%;
+    border-radius: 1vw;
+}
+
+main section:first-child{
+    display: flex;
+    align-items: center;
+    border-radius: 2vh;
+    padding: 0.5vw 5vw;
+    box-shadow: 0px 0px 0.5vw blue;
+}
+
+main section:last-child{
+    display: flex;
+    flex-direction: column;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.info{
+    gap: 2vw;
+}
+
+#video{
+    text-decoration: underline 0.2px solid black;
+    transition: 1s;
+    font-family: 'Allerta Stencil', sans-serif;
+    margin-top: 1.5vw;
+}
+
+#video:hover{
+    color: rgb(167, 0, 0);
+}
